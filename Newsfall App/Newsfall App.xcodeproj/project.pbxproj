@@ -56,15 +56,39 @@
 		4C4F497E2C3ABBAE00CDDC5B /* Newsfall App */ = {
 			isa = PBXGroup;
 			children = (
-				4C4F497F2C3ABBAE00CDDC5B /* AppDelegate.swift */,
-				4C4F49812C3ABBAE00CDDC5B /* SceneDelegate.swift */,
+				4C4F49932C3ABC0300CDDC5B /* Sourece */,
+				4C4F49942C3ABC1100CDDC5B /* Resource */,
+			);
+			path = "Newsfall App";
+			sourceTree = "<group>";
+		};
+		4C4F49932C3ABC0300CDDC5B /* Sourece */ = {
+			isa = PBXGroup;
+			children = (
+				4C4F49952C3ABD4C00CDDC5B /* AppDelegate */,
 				4C4F49832C3ABBAE00CDDC5B /* ViewController.swift */,
-				4C4F49852C3ABBAE00CDDC5B /* Main.storyboard */,
+			);
+			path = Sourece;
+			sourceTree = "<group>";
+		};
+		4C4F49942C3ABC1100CDDC5B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				4C4F49882C3ABBB100CDDC5B /* Assets.xcassets */,
+				4C4F49852C3ABBAE00CDDC5B /* Main.storyboard */,
 				4C4F498A2C3ABBB100CDDC5B /* LaunchScreen.storyboard */,
 				4C4F498D2C3ABBB100CDDC5B /* Info.plist */,
 			);
-			path = "Newsfall App";
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4C4F49952C3ABD4C00CDDC5B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4C4F497F2C3ABBAE00CDDC5B /* AppDelegate.swift */,
+				4C4F49812C3ABBAE00CDDC5B /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +318,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N2A357KK89;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Newsfall App/Info.plist";
+				INFOPLIST_FILE = "Newsfall App/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N2A357KK89;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Newsfall App/Info.plist";
+				INFOPLIST_FILE = "Newsfall App/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
