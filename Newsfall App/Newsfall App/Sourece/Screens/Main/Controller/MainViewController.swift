@@ -12,12 +12,19 @@ class MainViewController: UIViewController {
     var contentView: MainViewProtocol!
     
     var model: MainModelProtocol!
-    
+                
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
     }
-
+    
+  
+    func initialSetupState() {
+        
+        
+    }
 
 }
 
@@ -28,4 +35,5 @@ extension MainViewController: MainModelDelegate {
 extension MainViewController: MainViewDelegate {
     
 }
+
 

@@ -19,6 +19,21 @@
 		4C614C062C3AFDC70060DA3A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C052C3AFDC70060DA3A /* MainView.swift */; };
 		4C614C082C3AFE4D0060DA3A /* MainViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C072C3AFE4D0060DA3A /* MainViewProtocol.swift */; };
 		4C614C0A2C3AFE640060DA3A /* MainViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C092C3AFE640060DA3A /* MainViewDelegate.swift */; };
+		4C614C0C2C3B03AF0060DA3A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C0B2C3B03AF0060DA3A /* NetworkService.swift */; };
+		4C614C0E2C3B05040060DA3A /* NSModelTopHeadlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C0D2C3B05040060DA3A /* NSModelTopHeadlines.swift */; };
+		4C614C102C3B07420060DA3A /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C0F2C3B07420060DA3A /* NetworkServiceProtocol.swift */; };
+		4C614C122C3B07E70060DA3A /* NS+TopHeadlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C112C3B07E70060DA3A /* NS+TopHeadlines.swift */; };
+		4C614C142C3B0ACD0060DA3A /* APIConstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C132C3B0ACD0060DA3A /* APIConstance.swift */; };
+		4C614C182C3B13800060DA3A /* NewsFall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C162C3B13800060DA3A /* NewsFall.xcdatamodeld */; };
+		4C614C1E2C3B14660060DA3A /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C1D2C3B14660060DA3A /* CoreDataService.swift */; };
+		4C614C232C3B17030060DA3A /* CDArticle+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C1F2C3B17030060DA3A /* CDArticle+CoreDataClass.swift */; };
+		4C614C242C3B17030060DA3A /* CDArticle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C202C3B17030060DA3A /* CDArticle+CoreDataProperties.swift */; };
+		4C614C252C3B17030060DA3A /* CDTopHeadlines+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C212C3B17030060DA3A /* CDTopHeadlines+CoreDataClass.swift */; };
+		4C614C262C3B17030060DA3A /* CDTopHeadlines+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C222C3B17030060DA3A /* CDTopHeadlines+CoreDataProperties.swift */; };
+		4C614C292C3B178B0060DA3A /* CoreData+Insert+TopHeadlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C282C3B178B0060DA3A /* CoreData+Insert+TopHeadlines.swift */; };
+		4C614C2B2C3B1D440060DA3A /* CoreData+Fetch+TopHeadlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C2A2C3B1D440060DA3A /* CoreData+Fetch+TopHeadlines.swift */; };
+		4C614C2D2C3B1DDD0060DA3A /* CoreDataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C2C2C3B1DDD0060DA3A /* CoreDataServiceProtocol.swift */; };
+		4C614C2F2C3B1E860060DA3A /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614C2E2C3B1E860060DA3A /* ServiceProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +51,21 @@
 		4C614C052C3AFDC70060DA3A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4C614C072C3AFE4D0060DA3A /* MainViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewProtocol.swift; sourceTree = "<group>"; };
 		4C614C092C3AFE640060DA3A /* MainViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewDelegate.swift; sourceTree = "<group>"; };
+		4C614C0B2C3B03AF0060DA3A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4C614C0D2C3B05040060DA3A /* NSModelTopHeadlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSModelTopHeadlines.swift; sourceTree = "<group>"; };
+		4C614C0F2C3B07420060DA3A /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		4C614C112C3B07E70060DA3A /* NS+TopHeadlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NS+TopHeadlines.swift"; sourceTree = "<group>"; };
+		4C614C132C3B0ACD0060DA3A /* APIConstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstance.swift; sourceTree = "<group>"; };
+		4C614C172C3B13800060DA3A /* NewsFall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsFall.xcdatamodel; sourceTree = "<group>"; };
+		4C614C1D2C3B14660060DA3A /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataService.swift; path = "Newsfall App/Sourece/CoreData/CoreDataService.swift"; sourceTree = SOURCE_ROOT; };
+		4C614C1F2C3B17030060DA3A /* CDArticle+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDArticle+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C614C202C3B17030060DA3A /* CDArticle+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDArticle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C614C212C3B17030060DA3A /* CDTopHeadlines+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTopHeadlines+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C614C222C3B17030060DA3A /* CDTopHeadlines+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTopHeadlines+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C614C282C3B178B0060DA3A /* CoreData+Insert+TopHeadlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData+Insert+TopHeadlines.swift"; sourceTree = "<group>"; };
+		4C614C2A2C3B1D440060DA3A /* CoreData+Fetch+TopHeadlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData+Fetch+TopHeadlines.swift"; sourceTree = "<group>"; };
+		4C614C2C2C3B1DDD0060DA3A /* CoreDataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataServiceProtocol.swift; sourceTree = "<group>"; };
+		4C614C2E2C3B1E860060DA3A /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +147,7 @@
 			children = (
 				4C614BFA2C3AFC560060DA3A /* Storage */,
 				4C614BF92C3AFC4D0060DA3A /* Network */,
+				4C614C2E2C3B1E860060DA3A /* ServiceProvider.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -124,6 +155,11 @@
 		4C614BF92C3AFC4D0060DA3A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				4C614C0B2C3B03AF0060DA3A /* NetworkService.swift */,
+				4C614C0D2C3B05040060DA3A /* NSModelTopHeadlines.swift */,
+				4C614C112C3B07E70060DA3A /* NS+TopHeadlines.swift */,
+				4C614C0F2C3B07420060DA3A /* NetworkServiceProtocol.swift */,
+				4C614C132C3B0ACD0060DA3A /* APIConstance.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -131,6 +167,7 @@
 		4C614BFA2C3AFC560060DA3A /* Storage */ = {
 			isa = PBXGroup;
 			children = (
+				4C614C152C3B13540060DA3A /* CoreData */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -171,6 +208,30 @@
 				4C4F49832C3ABBAE00CDDC5B /* MainViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C614C152C3B13540060DA3A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4C614C272C3B171E0060DA3A /* CDEntityFiles */,
+				4C614C1D2C3B14660060DA3A /* CoreDataService.swift */,
+				4C614C282C3B178B0060DA3A /* CoreData+Insert+TopHeadlines.swift */,
+				4C614C2A2C3B1D440060DA3A /* CoreData+Fetch+TopHeadlines.swift */,
+				4C614C2C2C3B1DDD0060DA3A /* CoreDataServiceProtocol.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		4C614C272C3B171E0060DA3A /* CDEntityFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4C614C162C3B13800060DA3A /* NewsFall.xcdatamodeld */,
+				4C614C1F2C3B17030060DA3A /* CDArticle+CoreDataClass.swift */,
+				4C614C202C3B17030060DA3A /* CDArticle+CoreDataProperties.swift */,
+				4C614C212C3B17030060DA3A /* CDTopHeadlines+CoreDataClass.swift */,
+				4C614C222C3B17030060DA3A /* CDTopHeadlines+CoreDataProperties.swift */,
+			);
+			name = CDEntityFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,14 +305,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C614C0E2C3B05040060DA3A /* NSModelTopHeadlines.swift in Sources */,
+				4C614C182C3B13800060DA3A /* NewsFall.xcdatamodeld in Sources */,
+				4C614C0C2C3B03AF0060DA3A /* NetworkService.swift in Sources */,
+				4C614C2B2C3B1D440060DA3A /* CoreData+Fetch+TopHeadlines.swift in Sources */,
 				4C614C002C3AFD700060DA3A /* MainModel.swift in Sources */,
+				4C614C1E2C3B14660060DA3A /* CoreDataService.swift in Sources */,
 				4C614C062C3AFDC70060DA3A /* MainView.swift in Sources */,
+				4C614C2D2C3B1DDD0060DA3A /* CoreDataServiceProtocol.swift in Sources */,
 				4C4F49842C3ABBAE00CDDC5B /* MainViewController.swift in Sources */,
 				4C614C082C3AFE4D0060DA3A /* MainViewProtocol.swift in Sources */,
+				4C614C232C3B17030060DA3A /* CDArticle+CoreDataClass.swift in Sources */,
+				4C614C242C3B17030060DA3A /* CDArticle+CoreDataProperties.swift in Sources */,
+				4C614C2F2C3B1E860060DA3A /* ServiceProvider.swift in Sources */,
+				4C614C252C3B17030060DA3A /* CDTopHeadlines+CoreDataClass.swift in Sources */,
+				4C614C262C3B17030060DA3A /* CDTopHeadlines+CoreDataProperties.swift in Sources */,
 				4C4F49802C3ABBAE00CDDC5B /* AppDelegate.swift in Sources */,
 				4C614C0A2C3AFE640060DA3A /* MainViewDelegate.swift in Sources */,
+				4C614C102C3B07420060DA3A /* NetworkServiceProtocol.swift in Sources */,
 				4C614C042C3AFDAB0060DA3A /* MainModelDelegate.swift in Sources */,
+				4C614C292C3B178B0060DA3A /* CoreData+Insert+TopHeadlines.swift in Sources */,
 				4C4F49822C3ABBAE00CDDC5B /* SceneDelegate.swift in Sources */,
+				4C614C142C3B0ACD0060DA3A /* APIConstance.swift in Sources */,
+				4C614C122C3B07E70060DA3A /* NS+TopHeadlines.swift in Sources */,
 				4C614C022C3AFD960060DA3A /* MainModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +553,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C614C162C3B13800060DA3A /* NewsFall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C614C172C3B13800060DA3A /* NewsFall.xcdatamodel */,
+			);
+			currentVersion = 4C614C172C3B13800060DA3A /* NewsFall.xcdatamodel */;
+			path = NewsFall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4C4F49742C3ABBAE00CDDC5B /* Project object */;
 }

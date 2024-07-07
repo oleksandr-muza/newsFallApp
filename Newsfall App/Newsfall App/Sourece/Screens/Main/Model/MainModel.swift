@@ -11,7 +11,7 @@ import Foundation
 class MainModel {
     
     weak var delegate: MainViewDelegate?
-    
+        
 }
 
 extension MainModel: MainModelProtocol {
